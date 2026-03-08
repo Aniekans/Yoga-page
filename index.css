@@ -53,3 +53,43 @@ header{
     background-color: white;
     
 }
+.A{
+    width: 90px;
+    border-radius: 15px;
+    background-color: whitesmoke;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.R{
+    width: 95px;
+    border-radius: 15px;
+    background-color: whitesmoke;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.T{
+    width: 90px;
+    border-radius: 15px;
+    background-color: whitesmoke;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.C{
+    width: 90px;
+    border-radius: 15px;
+    background-color: whitesmoke;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
