@@ -141,7 +141,61 @@ header{
 
 } */
 
+.cards{
+    display: flex;
+    gap: 15px;
+}
 
+.card {
+    display: flex;
+    background-color: #fff;
+  position: relative; 
+}
+
+.card_img {
+    width: 80%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.image{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.card_text{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+}
+
+.card button{
+padding:6px 12px;
+border:none;
+border-radius:15px;
+background:#eee;
+margin-bottom:10px;
+}
+
+.email{
+display:flex;
+margin-top:10px;
+}
+
+.input{
+flex:1;
+padding:10px;
+border-radius:20px;
+border:1px solid #ddd;
+}
 
 .container{
   height: 50vh;
