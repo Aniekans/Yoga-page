@@ -104,6 +104,7 @@ header{
     background-size: cover;
     border-radius: 20px;
     padding: 1px;
+    margin-bottom: 20px;
 }
 
 .image-wrapper{
