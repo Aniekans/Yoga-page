@@ -9,6 +9,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     margin: 10px;
 }
 .page-wrapper{
@@ -218,6 +219,90 @@ border:1px solid #ddd;
   overflow: hidden;
   width: 60px;
   height: 60px;
+
+
+.cards{
+    display: flex;
+    gap: 15px;
+}
+
+.card {
+    display: flex;
+    background-color: #fff;
+  position: relative; 
+}
+
+.card_img {
+    width: 80%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.image{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.card_text{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+}
+
+.card button{
+padding:6px 12px;
+border:none;
+border-radius:15px;
+background:#eee;
+margin-bottom:10px;
+}
+
+.email{
+display:flex;
+margin-top:10px;
+}
+
+.input{
+flex:1;
+padding:10px;
+border-radius:20px;
+border:1px solid #ddd;
+}
+
+.testimonials{
+    width: 100%;
+    height: 100vh;
+    margin-top: 50px;
+}
+ .container{
+  height: 90%;
+  width: 100%;
+  align-items: center;
+  gap: 20px;
+} 
+
+.testimonial-track {
+  position: relative;
+  width: 100%;
+  height: 90%;
+   display: flex; 
+   justify-content: center;
+  gap: 40px;
+}
+
+.student {
+  border-radius: 30%;
+  overflow: hidden;
+  width: 90px;
+  height: 90px;
   cursor: pointer;
 }
 
